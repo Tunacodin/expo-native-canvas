@@ -1,0 +1,54 @@
+{
+  "name": "expo-native-canvas",
+  "version": "0.1.0",
+  "description": "A fully-native drawing canvas for Expo / React Native. Rendering, pan, pinch-zoom and rotation run on the UI thread with zero JS-bridge traffic per touch event (Android Canvas + iOS Core Graphics). Pen, true vector eraser, image background, selection, on-device shape recognition and stylus/pressure support.",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": [
+    "expo",
+    "expo-module",
+    "react-native",
+    "canvas",
+    "drawing",
+    "sketch",
+    "handwriting",
+    "ink",
+    "stylus",
+    "apple-pencil",
+    "s-pen",
+    "shape-recognition",
+    "ios",
+    "android"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tunacodin/expo-native-canvas.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tunacodin/expo-native-canvas/issues"
+  },
+  "homepage": "https://github.com/Tunacodin/expo-native-canvas#readme",
+  "author": "Tunacodin",
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "expo": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "expo-modules-core": "*",
+    "typescript": "^5.3.0"
+  },
+  "files": [
+    "src",
+    "android/src",
+    "android/build.gradle",
+    "ios",
+    "expo-module.config.json",
+    "README.md",
+    "LICENSE"
+  ]
+}

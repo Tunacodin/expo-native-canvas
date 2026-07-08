@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "expo-native-canvas-example",
+    "slug": "expo-native-canvas-example",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "bundleIdentifier": "com.tunacodin.exponativecanvasexample",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.tunacodin.exponativecanvasexample"
+    }
+  }
+}

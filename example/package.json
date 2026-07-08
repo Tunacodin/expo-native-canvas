@@ -1,0 +1,22 @@
+{
+  "name": "expo-native-canvas-example",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "private": true,
+  "scripts": {
+    "start": "expo start --dev-client",
+    "ios": "expo run:ios",
+    "android": "expo run:android"
+  },
+  "dependencies": {
+    "expo": "*",
+    "expo-native-canvas": "file:..",
+    "expo-status-bar": "*",
+    "react": "*",
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "@types/react": "*",
+    "typescript": "^5.3.0"
+  }
+}
