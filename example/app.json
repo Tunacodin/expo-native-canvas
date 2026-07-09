@@ -12,6 +12,9 @@
     },
     "android": {
       "package": "com.tunacodin.exponativecanvasexample"
-    }
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }

@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+example/package-lock.json
 
 # Native build artifacts
 android/build/
